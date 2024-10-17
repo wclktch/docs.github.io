@@ -4,9 +4,10 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https:/wclktch.github.io',
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'Infra docs',
 			social: {
 				github: 'https://github.com/withastro/starlight',
 			},
